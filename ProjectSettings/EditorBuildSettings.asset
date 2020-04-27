@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: e9c1ed8ea1eb1624596d3c9838038ab7
+  - enabled: 1
+    path: Assets/Scenes/parallelSolar.unity
+    guid: 1a0c4d6050381ce4fa753bf5b0f7625f
   m_configObjects: {}
