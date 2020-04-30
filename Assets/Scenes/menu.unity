@@ -191,7 +191,11 @@ GameObject:
   - component: {fileID: 349104099}
   - component: {fileID: 349104098}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: ButtonEvolution
+=======
+  m_Name: EvolutionButton
+>>>>>>> cd3485571f815d1a878f6dc9376726214e0d6ba0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +362,7 @@ GameObject:
   - component: {fileID: 604454622}
   - component: {fileID: 604454621}
   m_Layer: 5
-  m_Name: Text
+  m_Name: apptitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -661,7 +665,11 @@ GameObject:
   - component: {fileID: 1528491108}
   - component: {fileID: 1528491107}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: ButtonStart
+=======
+  m_Name: StartButton
+>>>>>>> cd3485571f815d1a878f6dc9376726214e0d6ba0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +794,11 @@ GameObject:
   - component: {fileID: 1575589907}
   - component: {fileID: 1575589906}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: ButtonQuit
+=======
+  m_Name: QuitButton
+>>>>>>> cd3485571f815d1a878f6dc9376726214e0d6ba0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

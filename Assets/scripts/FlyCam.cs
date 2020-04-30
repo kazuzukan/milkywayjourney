@@ -4,7 +4,7 @@ using System.Collections;
 public class FlyCam : MonoBehaviour {
 	
 	
-	public float speed = 30.0f;		// max speed of camera
+	public float speed = 10.0f;		// max speed of camera
 	public float sensitivity = 0.25f; 		// keep it from 0..1
 	public bool inverted = false;
 	
@@ -14,7 +14,7 @@ public class FlyCam : MonoBehaviour {
 	
 	// smoothing
 	public bool smooth = true;
-	public float acceleration = 5.1f;
+	public float acceleration = 2.1f;
 	private float actSpeed = 0.0f;			// keep it from 0 to 1
 	private Vector3 lastDir = new Vector3();
 	
@@ -44,17 +44,17 @@ public class FlyCam : MonoBehaviour {
 		
 		Vector3 dir = new Vector3();			// create (0,0,0)
 		
-		if (Input.GetKey(KeyCode.W)) dir.z += 5.0f;
-		if (Input.GetKey(KeyCode.S)) dir.z -= 5.0f;
-		if (Input.GetKey(KeyCode.A)) dir.x -= 5.0f;
-		if (Input.GetKey(KeyCode.D)) dir.x += 5.0f;
+		if (Input.GetKey(KeyCode.W)) dir.z += 1.0f;
+		if (Input.GetKey(KeyCode.S)) dir.z -= 1.0f;
+		if (Input.GetKey(KeyCode.A)) dir.x -= 1.0f;
+		if (Input.GetKey(KeyCode.D)) dir.x += 1.0f;
 		dir.Normalize();
 		
 		
 		if (dir != Vector3.zero) {
 			// some movement 
-			if (actSpeed < 20)
-				actSpeed += acceleration * Time.deltaTime * 40;
+			if (actSpeed < 17)
+				actSpeed += acceleration * Time.deltaTime * 8;
 			else 
 				actSpeed = 1.0f;
 			
@@ -62,7 +62,7 @@ public class FlyCam : MonoBehaviour {
 		} else {
 			// should stop
 			if (actSpeed > 0)
-				actSpeed -= acceleration * Time.deltaTime * 20;
+				actSpeed -= acceleration * Time.deltaTime * 200;
 			else 
 				actSpeed = 0.0f;
 		}
