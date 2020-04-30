@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\clickmenu.cs" />
+    <Compile Include="Assets\scripts\DisplayUINeptunus.cs" />
     <Compile Include="Assets\scripts\FlyCam.cs" />
     <Compile Include="Assets\scripts\InfiniteStar.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\Extensions\ArrayExtensions.cs" />
