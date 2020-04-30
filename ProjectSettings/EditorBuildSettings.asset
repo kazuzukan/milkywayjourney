@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/parallelSolar.unity
     guid: 1a0c4d6050381ce4fa753bf5b0f7625f
+  - enabled: 1
+    path: Assets/Scenes/evolution.unity
+    guid: 11958e2719bcab34d926904836b93223
   m_configObjects: {}

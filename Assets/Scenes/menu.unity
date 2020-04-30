@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 349104099}
   - component: {fileID: 349104098}
   m_Layer: 5
-  m_Name: ButtonQuit
+  m_Name: ButtonEvolution
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 460679854}
-        m_MethodName: next
+        m_MethodName: evolution
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 1528491108}
   - component: {fileID: 1528491107}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 1575589907}
   - component: {fileID: 1575589906}
   m_Layer: 5
-  m_Name: ButtonQuit (1)
+  m_Name: ButtonQuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578880343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 362, y: 144, z: -747}
+  m_LocalPosition: {x: 362, y: 144, z: -750}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

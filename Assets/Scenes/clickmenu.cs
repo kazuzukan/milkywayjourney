@@ -14,8 +14,12 @@ public class clickmenu : MonoBehaviour
         Application.LoadLevel(1);
     }
 
+    public void evolution(){
+        Application.LoadLevel(2);
+    }
+
     public void quit(){
-        Application.Quit();
+        Application.LoadLevel(0);
     }
     // Update is called once per frame
     void Update()
