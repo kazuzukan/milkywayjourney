@@ -28,9 +28,13 @@ public class DisplayUI : MonoBehaviour
         
     }
 
-    void OnMouseDown()
+    public void displayTheUI()
     {
         displayUI.enabled = !displayUI.enabled;
+    }
+
+    public void displayMoon()
+    {
         moon.enabled = !moon.enabled;
     }
 
