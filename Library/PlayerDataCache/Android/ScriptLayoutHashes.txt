@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/HCI2/milkywayjourney/milkyway.apk
+C:/Users/prako/OneDrive/Documents/milkyway.apk
 SceneListBegin?
 Assets/Scenes/menu.unity
 Assets/Scenes/parallelSolar.unity
@@ -25,10 +25,12 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Gvr.Internal.EditorCameraOriginDict
+adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIMars
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:.SampleInfo
 02493766ba0d073bd9e5d602a5878d4f Assembly-CSharp-firstpass.dll:.iTween
 84b31b71fcfc0d02bf4204522ea292b1 Assembly-CSharp.dll:.GvrVideoPlayerTexture
+adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIVenus
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -135,6 +137,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 ed916f285d5522ec5ceb6eccef8d0072 Assembly-CSharp.dll:GoogleVR.VideoDemo.SwitchVideos
 11182ae33aeebaa701c6f03cb7f19976 Assembly-CSharp.dll:.GvrKeyboard
 62a109b2fcf9cae59e51c5f7b0e53e36 Assembly-CSharp.dll:UniHumanoid.RuntimeBvhLoader
+adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIMercury
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:.MoveSample
@@ -226,6 +229,5 @@ f0077b931a26a7eeaf5e245c7ef51ec4 Assembly-CSharp.dll:.GvrPointerInputModule
 5c154035374dfb8f27625ef624b063a4 Assembly-CSharp.dll:.InfiniteStar
 719e5a8f63dda20dad1ba86875c22268 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 9ef0ed9504edb9d0914e240dee1b7846 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
-adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIMars
-adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIVenus
-adfd54c4ddbcfed2007b261a4c5d34f5 Assembly-CSharp.dll:.DisplayUIMercury
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityStore.dll:UnityEngine.Store.MainThreadDispatcher
+a318a82d5abde553e75543c7b3aba918 XiaomiSupport.dll:AppStoresSupport.AppStoreSettings
